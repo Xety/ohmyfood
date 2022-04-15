@@ -1,0 +1,25 @@
+/**
+  * Box-Sizing to all the document.
+  */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.brand {
+    font-family: 'Shrikhand', serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+        color: $ohmyfood-primary;
+    }
+}
