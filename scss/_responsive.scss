@@ -14,8 +14,10 @@
         gap: 30px;
     }
 
-    .operations-step {
+    .operations-step,
+    .subcard {
         flex: 1;
+        width: 30%;
     }
 
     .card {

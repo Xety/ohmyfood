@@ -1,0 +1,148 @@
+.menu {
+    position: relative;
+    height: $menu-image-height;
+
+    &-container {
+        background-image: url(../images/restaurants/overlay.png);
+        overflow: hidden;
+        height: $menu-image-height;
+    }
+
+    &-image {
+        object-fit: cover;
+        width: 100%;
+        height: $menu-image-height;
+        opacity: .8;
+    }
+}
+
+.menu-card {
+    position: relative;
+    max-width: 1280px;
+    padding: 40px 30px;
+    margin: 0 auto;
+    margin-top: -50px;
+    background-color: #f6f6f6;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    z-index: 2;
+
+    &-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-title {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    &-order {
+        text-align: center;
+        padding: 30px;
+    }
+}
+
+.subcards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    margin-top: 40px;
+}
+
+.subcard {
+    width: 100%;
+
+    &-title {
+        margin: 0;
+        text-transform: uppercase;
+        color: #3d3d3d;
+        font-size: 20px;
+        font-weight: 400;
+
+        &:after {
+            content: "";
+            width: 50px;
+            height: 3px;
+            background-color: $ohmyfood-tertiary;
+            display: block;
+          }
+    }
+
+    &-items {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    &-item {
+        display: flex;
+        position: relative;
+        margin: 15px 0;
+        background-color: #FFFFFF;
+        box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        overflow: hidden;
+        cursor: pointer;
+        transform: scale(0);
+
+        &:hover > &-check {
+            margin-right: 0px;
+            transition: margin-right 0.5s;
+
+            & > i {
+                transform: rotate(360deg);
+            }
+        }
+
+        &-infos {
+            width: 100%;
+            padding: 10px;
+            overflow: hidden;
+        }
+
+        &-title,
+        &-description {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        &-title {
+            margin: 0;
+            font-weight: 500;
+        }
+
+        &-description {
+            margin: 0;
+            margin-top: 5px;
+            font-weight: 200;
+        }
+
+        &-price {
+            padding: 10px;
+            align-self: end;
+            font-weight: 500;
+            color: #353535;
+        }
+
+        &-check {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            margin-right: -60px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            background-color: $ohmyfood-tertiary;
+
+            i {
+                font-size: 20px;
+                color: #FFFFFF;
+                transition: transform 0.5s;
+            }
+        }
+    }
+}
