@@ -164,6 +164,7 @@
         &:hover {
             background-image: linear-gradient(0deg, rgba(255, 121, 218, .9) 0%, rgba(147, 86, 220, .9) 100%);
             background-clip: text;
+            -webkit-background-clip:text;
             color: transparent;
         }
 
@@ -193,6 +194,7 @@
         &:hover > &-regular {
             background: linear-gradient(0deg, rgba(255, 121, 218, .9) 0%, rgba(147, 86, 220, .9) 100%);
             background-clip: text;
+            -webkit-background-clip:text;
             color: transparent;
         }
 
@@ -205,6 +207,7 @@
         &-solid {
             background: linear-gradient(0deg, rgba(255, 121, 218, .9) 0%, rgba(147, 86, 220, .9) 100%);
             background-clip: text;
+            -webkit-background-clip:text;
             color: transparent;
             opacity: 0;
         }
