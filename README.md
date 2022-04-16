@@ -1,5 +1,5 @@
 > <p align="center">
->   <img src="https://user-images.githubusercontent.com/8210023/163652366-59d2de3b-1f06-4bea-886c-6c582344e46e.png" alt="ohmyfood Logo" height="60"/>
+>   <img src="https://user-images.githubusercontent.com/8210023/163654805-421f6ecf-43bb-4710-91a8-4a0180289e7f.png" alt="ohmyfood Logo" height="60"/>
 > </p>
 >
 > Projet 3 de la formation Développeur Web d'OpenClassRoom.
