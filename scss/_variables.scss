@@ -1,8 +1,18 @@
+/**
+  * Colors
+  */
 $ohmyfood-primary: #9356DC;
 $ohmyfood-secondary: #FF79DA;
 $ohmyfood-tertiary: #99E2D0;
+$gradient-background : linear-gradient(0deg, rgba(255, 121, 218, .9) 0%, rgba(147, 86, 220, .9) 100%);
+$gradient-background-inversed: linear-gradient(180deg, rgba(255, 121, 218, .9) 0%, rgba(147, 86, 220, .9) 100%);
 
 /**
  * Menu
  */
 $menu-image-height: 550px;
+
+/**
+  * Responsive
+  */
+$container-max-width: 1280px;

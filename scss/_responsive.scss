@@ -3,7 +3,7 @@
     .restaurants-container,
     .footer-container {
         margin: 0 auto;
-        max-width: 1280px;
+        max-width: $container-max-width;
     }
 
     .operations-steps {
